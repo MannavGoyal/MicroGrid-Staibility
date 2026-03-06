@@ -1,0 +1,30 @@
+{
+  "hyperparameters": {
+    "input_size": 5,
+    "hidden_size": 32,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "epochs": 30,
+    "early_stopping_patience": 10
+  },
+  "created_at": "2026-03-03T11:55:00.573186+00:00",
+  "version": "1.0.0",
+  "training_time_seconds": 2.314774990081787,
+  "framework": "LSTMPredictor",
+  "architecture": {
+    "input_size": 5,
+    "hidden_size": 32,
+    "num_layers": 2,
+    "dropout": 0.2
+  },
+  "training": {
+    "epochs_completed": 30,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "train_samples": 500,
+    "val_samples": 100
+  },
+  "convergence_status": "max_epochs"
+}

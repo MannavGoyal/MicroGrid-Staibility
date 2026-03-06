@@ -1,0 +1,78 @@
+{
+  "prediction_metrics": {
+    "mae": 0.05110479476058957,
+    "rmse": 0.07611686286503737,
+    "mape": 31.068169708189576,
+    "r2": 0.9532637385821802
+  },
+  "stability_no_forecast": {
+    "frequency": {
+      "mean_absolute_deviation": 0.2774058418124124,
+      "std_deviation": 0.2922800038817396,
+      "max_deviation": 1.0323303136558954,
+      "time_outside_limits": 0.18366164542294322,
+      "rate_of_change": 0.029445876021137758
+    },
+    "voltage": {
+      "mean_absolute_deviation": 0.07240166109387984,
+      "std_deviation": 0.08932364246467123,
+      "max_deviation": 0.2579257214250802,
+      "time_outside_limits": 0.0
+    },
+    "battery": {
+      "soc_range": 1.5483265873735195,
+      "num_cycles": 63.0,
+      "max_depth_of_discharge": 0.4096653174747039,
+      "avg_c_rate": 0.024718072470207825,
+      "total_throughput": 17.77641378482446
+    },
+    "power_quality": {
+      "thd_proxy": 0.39973033849271705,
+      "power_factor": 0.7
+    },
+    "energy": {
+      "total_unmet_load": 35.27884739020907,
+      "total_curtailed_pv": 2.3129646346357426e-17,
+      "energy_efficiency": 0.7968716812099594
+    },
+    "control_effort": {
+      "sum_absolute_battery_changes": 108.05129947346192,
+      "num_control_actions": 808
+    }
+  },
+  "stability_with_forecast": {
+    "frequency": {
+      "mean_absolute_deviation": 0.25488765133666885,
+      "std_deviation": 0.29414899517398657,
+      "max_deviation": 1.0323303136558954,
+      "time_outside_limits": 0.1801853997682503,
+      "rate_of_change": 0.027746568953302787
+    },
+    "voltage": {
+      "mean_absolute_deviation": 0.07240166109387984,
+      "std_deviation": 0.08932364246467123,
+      "max_deviation": 0.2579257214250802,
+      "time_outside_limits": 0.0
+    },
+    "battery": {
+      "soc_range": 1.9762499999999998,
+      "num_cycles": 64.0,
+      "max_depth_of_discharge": 0.49524999999999997,
+      "avg_c_rate": 0.02764543723205449,
+      "total_throughput": 19.881676942719185
+    },
+    "power_quality": {
+      "thd_proxy": 0.4022864234522346,
+      "power_factor": 0.7
+    },
+    "energy": {
+      "total_unmet_load": 35.27884739020907,
+      "total_curtailed_pv": 2.3129646346357426e-17,
+      "energy_efficiency": 0.7968716812099594
+    },
+    "control_effort": {
+      "sum_absolute_battery_changes": 110.0258088740894,
+      "num_control_actions": 828
+    }
+  }
+}

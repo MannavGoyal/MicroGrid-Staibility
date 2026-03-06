@@ -1,0 +1,14 @@
+metric,value
+prediction_metrics.mae,0.342
+prediction_metrics.rmse,0.456
+prediction_metrics.mape,8.9
+prediction_metrics.r2,0.912
+stability_metrics.frequency.mean_abs_dev,0.089
+stability_metrics.frequency.std_dev,0.067
+stability_metrics.frequency.max_dev,0.234
+stability_metrics.voltage.mean_abs_dev,1.45
+stability_metrics.voltage.std_dev,1.12
+stability_metrics.voltage.max_dev,3.89
+stability_metrics.battery.soc_range,3.2
+stability_metrics.battery.num_cycles,4.5
+stability_metrics.battery.throughput,15.6

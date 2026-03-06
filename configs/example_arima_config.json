@@ -1,0 +1,30 @@
+{
+  "experiment_name": "arima_baseline_5min",
+  "forecast_horizon": "5min",
+  "model_configuration": {
+    "model_type": "arima",
+    "hyperparameters": {
+      "arima_order": [5, 1, 0]
+    },
+    "sequence_length": 12
+  },
+  "microgrid_configuration": {
+    "mode": "grid_connected",
+    "pv_capacity_kw": 15.0,
+    "battery_capacity_kwh": 10.0,
+    "battery_power_kw": 5.0,
+    "inverter_capacity_kw": 18.0,
+    "initial_soc_kwh": 5.0,
+    "has_diesel_generator": false,
+    "diesel_capacity_kw": null
+  },
+  "training_configuration": {
+    "epochs": 1,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "validation_split": 0.2,
+    "early_stopping_patience": 5
+  },
+  "data_path": "data/solar_timeseries.csv",
+  "output_dir": "results/arima_experiment"
+}

@@ -1,0 +1,25 @@
+{
+  "prediction_metrics": {
+    "mae": 0.342,
+    "rmse": 0.456,
+    "mape": 8.9,
+    "r2": 0.912
+  },
+  "stability_metrics": {
+    "frequency": {
+      "mean_abs_dev": 0.089,
+      "std_dev": 0.067,
+      "max_dev": 0.234
+    },
+    "voltage": {
+      "mean_abs_dev": 1.45,
+      "std_dev": 1.12,
+      "max_dev": 3.89
+    },
+    "battery": {
+      "soc_range": 3.2,
+      "num_cycles": 4.5,
+      "throughput": 15.6
+    }
+  }
+}

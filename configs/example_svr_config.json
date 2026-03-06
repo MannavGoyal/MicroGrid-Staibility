@@ -1,0 +1,32 @@
+{
+  "experiment_name": "svr_baseline_1hour",
+  "forecast_horizon": "1hour",
+  "model_configuration": {
+    "model_type": "svr",
+    "hyperparameters": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "kernel": "rbf"
+    },
+    "sequence_length": 6
+  },
+  "microgrid_configuration": {
+    "mode": "islanded",
+    "pv_capacity_kw": 20.0,
+    "battery_capacity_kwh": 15.0,
+    "battery_power_kw": 8.0,
+    "inverter_capacity_kw": 25.0,
+    "initial_soc_kwh": 7.5,
+    "has_diesel_generator": true,
+    "diesel_capacity_kw": 10.0
+  },
+  "training_configuration": {
+    "epochs": 1,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "validation_split": 0.2,
+    "early_stopping_patience": 5
+  },
+  "data_path": "data/solar_timeseries.csv",
+  "output_dir": "results/svr_experiment"
+}
